@@ -1,4 +1,4 @@
-import time
+# import time
 
 test_cases = int(input())
 values_values = []
@@ -11,7 +11,7 @@ for i in range(test_cases):
 	m_values.append(int(values[1]))
 	items_values.append([int(x) for x in input().split()])
 for abcd in range(len(n_values)):
-	start_time = time.time()
+	# start_time = time.time()
 	n = n_values[abcd]
 	m = m_values[abcd]
 	items = items_values[abcd]
@@ -28,9 +28,9 @@ for abcd in range(len(n_values)):
 			temp_result = sum(items[k:j])%m
 			if temp_result > max_value:
 				max_value = temp_result
-	end_time = time.time()
+	# end_time = time.time()
 	print(max_value)
-	print("Time Taken: "+ str(end_time - start_time))
+	# print("Time Taken: "+ str(end_time - start_time))
 
 
 
