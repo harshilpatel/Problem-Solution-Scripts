@@ -1,4 +1,5 @@
 # Get Youtube Channels [video name+views] per video
+
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 
@@ -12,7 +13,7 @@ while '1' == '1':
 	views = 0
 	video_name = []
 	video_count = []
-
+	keep_track_of_everything = {}
 	video_name_length = 55
 	for i in range(100):
 		pass
