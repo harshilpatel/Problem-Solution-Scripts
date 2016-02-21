@@ -1,3 +1,6 @@
+# Author: HarshilPatel
+# harshil912@gmail.com
+# Python3
 min_input = int(input())
 max_input = int(input())
 

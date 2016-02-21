@@ -1,3 +1,6 @@
+# Author: HarshilPatel
+# harshil912@gmail.com
+# Python3
 array = []
 for i in range(6):
 	array.append(int(input().strip().split()))

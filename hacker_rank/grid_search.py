@@ -1,4 +1,8 @@
+# Author: HarshilPatel
+# harshil912@gmail.com
+# Python3
 a=int(input())
+
 
 def check_if_exists(g,p,pr,pc):
 	if p == ['12','34']:

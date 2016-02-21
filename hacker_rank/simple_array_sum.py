@@ -1,3 +1,6 @@
+# Author: HarshilPatel
+# harshil912@gmail.com
+# Python3
 # Simple aray sum
 # https://www.hackerrank.com/challenges/simple-array-sum
 

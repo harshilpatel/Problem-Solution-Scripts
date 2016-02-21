@@ -1,3 +1,6 @@
+// Author: HarshilPatel
+// harshil912@gmail.com
+// Js scipt non working
 function create_new_product(product_name,product_description,price,taxons,prototype,shipping_category){
 	var count = 0 ;
 	$(document).on('click','li',function(){

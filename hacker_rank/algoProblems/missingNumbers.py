@@ -1,3 +1,6 @@
+# Author: HarshilPatel
+# harshil912@gmail.com
+# Python3
 a=int(input())
 list_a = input().split()
 b=int(input())

@@ -1,3 +1,6 @@
+# Author: HarshilPatel
+# harshil912@gmail.com
+# Python3
 a = int(input())
 b = [int(x) for x in input().split()]
 
