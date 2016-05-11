@@ -1,3 +1,4 @@
+# windows python3
 from datetime import datetime as a
 import time
 import winsound
