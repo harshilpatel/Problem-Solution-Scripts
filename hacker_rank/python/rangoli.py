@@ -1,7 +1,8 @@
-alpha = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']
+import string
 
+alpha = list(string.ascii_lowercase)
 a = int(input())
-temp_string = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']
+temp_string = list(string.ascii_lowercase)
 temp_range = list(range(a))
 temp_range.reverse()
 count = ((a-1)*4)+1
@@ -12,7 +13,7 @@ for i in temp_range[:-1]:
 	print( final_string + temp_string2 + final_string  )
 	# temp_string.remove(temp_string[0])
 
-# temp_string = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']
+# temp_string = list(string.ascii_lowercase)
 
 for i in range(a):
 	final_string = ''
