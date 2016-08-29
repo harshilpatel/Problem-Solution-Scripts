@@ -22,7 +22,7 @@ int main(int argc, char const *argv[])
 	if(a < v.size()) v.erase(v.begin() + a - 1);
 
 	cin >> a >> b;
-	if(a<b && b<v.size()) v.erase(v.begin() + a -1, v.end() + b-1);	
+	if(a < b && b-1<=v.size()) v.erase(v.begin() + a -1, v.begin() + b-1);	
 
 	cout << v.size() << endl;
 
