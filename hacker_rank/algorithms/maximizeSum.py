@@ -1,6 +1,6 @@
 # Author: HarshilPatel
 # harshil912@gmail.com
-# Python3
+# Python2
 # import time
 
 test_cases = int(input())
